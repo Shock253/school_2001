@@ -15,4 +15,9 @@ class School
     "#{time + @hours_in_school_day}:00"
   end
 
+  def is_full_time?
+    true
+  end
+
+  
 end
