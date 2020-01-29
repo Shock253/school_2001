@@ -19,5 +19,11 @@ class School
     true
   end
 
-  
+  def standard_student_names
+    out = []
+    @student_names.each {|name|
+      out << name.capitalize
+    }
+    out
+  end
 end
