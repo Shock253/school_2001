@@ -10,4 +10,9 @@ class School
     @student_names << student_name
   end
 
+  def end_time
+    time = @start_time.to_i
+    "#{time + @hours_in_school_day}:00"
+  end
+
 end
